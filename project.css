@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    position: relative;
+    overflow: hidden;
+
+}
+#page1{
+    height: 100vh;
+    overflow: hidden;
+    background-color: red;
+    position: relative;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px ;
+    position: absolute;
+    height: 7vh;
+    width: 100vw;
+
+
+}
+#page1>nav>img{
+    margin-top: -1.7vw;
+    width: 9%;
+}
+#right-nav>button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color:#0b48ed ;
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    
+}
